@@ -24,18 +24,17 @@ export default function Home() {
 
   return (
     <div
-      className="min-h-screen flex flex-col bg-gray-100"
+      className="min-h-screen flex flex-col"
       style={{
         backgroundImage: `url(${background})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
-        transition: 'opacity 1s ease-in-out',
+        transition: 'background-image 1s ease-in-out',
       }}
     >
       {/* Hauptbereich */}
       <main className="flex-grow flex items-center justify-center p-10 text-center">
-        {/* Durchsichtige Box */}
         <div className="bg-white/40 p-10 rounded-md shadow-lg max-w-md animate-fadeIn backdrop-blur-sm">
           <h2 className="text-4xl font-bold mb-4 text-blue-600 animate-bounce">Willkommen!</h2>
           <p className="text-lg text-gray-700 mb-6">
