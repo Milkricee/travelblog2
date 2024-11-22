@@ -1,0 +1,38 @@
+/* Hintergrundbild für den Parallax-Bereich */
+.about-parallax {
+    background-image: url('/imgs/ich.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* Höhe des Parallax-Bereichs */
+  }
+  
+  /* Stile für den Textcontainer */
+  .about-text-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Halbtransparenter Hintergrund */
+    backdrop-filter: blur(8px); /* Optional: Unschärfe */
+    border-radius: 0.5rem; /* Abgerundete Ecken */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten */
+    padding: 2rem; /* Innenabstand */
+    margin: 2rem auto; /* Zentrierung */
+    max-width: 800px; /* Maximale Breite */
+    opacity: 0.8;
+  }
+  
+  /* Zusätzliche Stile für Text */
+  .about-text {
+    font-size: 1.125rem; /* Textgröße */
+    line-height: 1.8; /* Zeilenhöhe */
+    margin-bottom: 1.5rem; /* Abstand zwischen Absätzen */
+  }
+  
+  .about-title {
+    font-size: 2rem; /* Titelgröße */
+    text-align: center; /* Zentrierter Titel */
+    margin-bottom: 1.5rem; /* Abstand unterhalb des Titels */
+  }
+
+  .about-div-container {
+  background-color: whitesmoke;
+  }
+  

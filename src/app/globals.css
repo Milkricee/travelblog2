@@ -15,15 +15,7 @@
   }
 }
 
-/* Grundstil */
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
+
 
 /* Animationen */
 @keyframes fadeIn {
@@ -89,3 +81,4 @@ button:hover,
 a.button:hover {
   transform: scale(1.05);
 }
+
