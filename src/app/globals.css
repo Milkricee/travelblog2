@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Farbvariablen */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +15,77 @@
   }
 }
 
+/* Grundstil */
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Animationen */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
+
+/* Hintergründe mit weichem Übergang */
+.bg-transition {
+  transition: background-image 1s ease-in-out;
+}
+
+/* Transparente Boxen */
+.backdrop-blur-sm {
+  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.3); /* für weiße Boxen mit Transparenz */
+}
+
+/* Utility-Klassen für Links */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #2563eb; /* Blauton beim Hover */
+}
+
+/* Buttons */
+button,
+a.button {
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover,
+a.button:hover {
+  transform: scale(1.05);
 }
