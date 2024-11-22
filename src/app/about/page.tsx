@@ -16,14 +16,12 @@ export default function AboutMe() {
         {/* Textabschnitt */}
         <p className="about-text">
           Hallo! Ich bin <strong>Daniel</strong>, der Reiseenthusiast hinter diesem Blog. 
-          Schon seit meiner Jugend fasziniert mich die Schönheit unserer Welt. Ob es das Erkunden von versteckten Pfaden, 
-          das Genießen von lokalen Spezialitäten oder das Eintauchen in neue Kulturen ist – Reisen gibt mir das Gefühl 
-          von Freiheit und Inspiration.
+          Ich studiere <strong>Wirtschaftsinformatik</strong> im letzten Semester und reise für mein Leben gerne.
+          In meiner freizeit programmiere ich gerne und hab mir gedacht ich tue mal was gutes und erstelle eine Webseite , damit andere von meinen Erfahrungen profitieren können.
+          Ich werde hier meine Reiseerfahrungen teilen und evlt Tipps, Tricks, und potentielle Routen für das jeweilige Land teilen.  
         </p>
 
         <p className="about-text">
-          Ich lade dich ein, gemeinsam mit mir die schönsten Orte der Erde zu entdecken und Abenteuer zu erleben! 
-          Hier geht&apos;s zu meinem letzten Trip nach 
           <a 
             href="/afrika/marokko" 
             className="text-blue-600 hover:text-blue-800 underline ml-1"
@@ -33,15 +31,13 @@ export default function AboutMe() {
         </p>
 
         <p className="about-text">
-          Diese Website habe ich zum Üben und rein zum Spaß erstellt. 
           Wenn ich einigen wenigen Besuchern mit meinen Berichten und Erfahrungen weiterhelfen konnte, 
           hat sich der Aufwand schon gelohnt. Ich würde mich über Kommentare freuen. 
           Bei Fragen zu einigen Ländern könnt ihr mich gerne anschreiben.
         </p>
 
         <p className="about-text">
-          Außerdem studiere ich aktuell <strong>Wirtschaftsinformatik</strong> im letzten Semester 
-          und freue mich, wenn ich bei spannenden Projekten mitwirken kann. 
+         Falls jmd spannende Projekte hat bei denen ich mitwirken kann, bin ich gerne dabei.
           <p> 
           <span className="italic">Do not hesitate to contact me.</span>
           </p>
