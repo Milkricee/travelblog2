@@ -1,67 +1,31 @@
-/* Hintergrund */
+/* Hintergrund der Startseite */
 .home-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: background-image 1s ease-in-out;
-  }
-  
-  /* Hauptbereich */
-  .home-main {
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2.5rem;
-    text-align: center;
-  }
-  
-  /* Box-Design */
-  .home-box {
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 2.5rem;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 24rem;
-    animation: fadeIn 2s ease-in-out;
-    backdrop-filter: blur(8px);
-  }
-  
-  /* Überschrift */
-  .home-title {
-    font-size: 2.25rem; /* entspricht text-4xl */
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: #2563eb; /* entspricht text-blue-600 */
-    animation: bounce 2s infinite;
-  }
-  
-  /* Text */
-  .home-text {
-    font-size: 1.125rem; /* entspricht text-lg */
-    color: #4b5563; /* entspricht text-gray-700 */
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-  }
-  
-  /* Link-Button */
-  .home-button {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    background-color: #3b82f6; /* entspricht bg-blue-500 */
-    color: #fff;
-    font-size: 1.125rem; /* entspricht text-lg */
-    font-weight: 500;
-    border-radius: 0.375rem; /* entspricht rounded-md */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .home-button:hover {
-    background-color: #2563eb; /* entspricht hover:bg-blue-600 */
-    transform: scale(1.05);
-  }
-  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 1s ease-in-out;
+}
+
+/* Hauptbereich */
+.home-main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+/* Box-Design */
+.home-box {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 2.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 24rem;
+  animation: fadeIn 2s ease-in-out;
+  backdrop-filter: blur(8px);
+}

@@ -22,11 +22,11 @@ export default function AboutMe() {
         </p>
 
         <p className="about-text">
-          <a 
+          <a
             href="/afrika/marokko" 
             className="text-blue-600 hover:text-blue-800 underline ml-1"
           >
-            Marokko
+            Hier mein letzer Trip nach Marokko
           </a>.
         </p>
 
@@ -38,9 +38,11 @@ export default function AboutMe() {
 
         <p className="about-text">
          Falls jmd spannende Projekte hat bei denen ich mitwirken kann, bin ich gerne dabei.
-          <p> 
-          <span className="italic">Do not hesitate to contact me.</span>
-          </p>
+          
+          <div>
+          <span className="italic"> Do not hesitate to contact me.</span>
+          </div>
+         
         </p>
       </div>
     </div>

@@ -7,17 +7,18 @@
     height: 50vh; /* Höhe des Parallax-Bereichs */
   }
   
-  /* Stile für den Textcontainer */
   .about-text-container {
     background-color: rgba(255, 255, 255, 0.8); /* Halbtransparenter Hintergrund */
     backdrop-filter: blur(8px); /* Optional: Unschärfe */
     border-radius: 0.5rem; /* Abgerundete Ecken */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Schatten */
     padding: 2rem; /* Innenabstand */
-    margin: 2rem auto; /* Zentrierung */
+    margin: 0 auto; /* Entfernt Abstand nach unten */
     max-width: 800px; /* Maximale Breite */
-    opacity: 0.8;
+    height: 100%; /* Container füllt die gesamte Höhe */
+    opacity: 0.8; /* Halbtransparenz */
   }
+  
   
   /* Zusätzliche Stile für Text */
   .about-text {
@@ -34,5 +35,6 @@
 
   .about-div-container {
   background-color: whitesmoke;
+  size: 100%;
   }
   
